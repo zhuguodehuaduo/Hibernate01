@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.lry.po" >
+
+    <class name="com.lry.po.Emp" table="emp" schema="emp">
+        <id name="id" column="id"/>
+        <property name="gid" column="gid"/>
+        <property name="name" column="name"/>
+        <property name="age" column="age"/>
+        <property name="qian" column="qian"/>
+        <property name="bumen" column="bumen"/>
+    </class>
+</hibernate-mapping>
